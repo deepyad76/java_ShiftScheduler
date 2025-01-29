@@ -1,0 +1,18 @@
+Goal:
+Preparing a basic java code that will use hashmaps to store the shift schedule for multiple teams where we can define constraints and team members
+
+
+
+Separate classes for:
+1. Team : having field for name and description 
+2. Shift : having field for name, alias, start-time, duration_min, list of applicable weekdays
+3. Member : having field for name, gender, team_name, list of applicable shifts
+4. AssignedShift : having field for  member_name, date, shift_alilas
+
+
+
+Execution flow:
+1. Take a start date and end date for preparing the shift schedule
+2. Randomly assign shift to team members for each day between start date and end date
+3. Shift assigned to team members should be based on their applicable shifts
+4. Finally output the shift schedule in a html table with dates on top, member names on left and their assigned shift in respective cell
