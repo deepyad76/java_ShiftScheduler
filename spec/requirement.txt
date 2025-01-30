@@ -2,6 +2,13 @@ Goal:
 Preparing a basic java code that will use hashmaps to store the shift schedule for multiple teams where we can define constraints and team members
 
 
+Use-cases:
+1. Configuring account (teams, members, shifts)
+2. Creating shift schedules for a period
+3. Find person(s) in a given shift
+4. Shift swap by members (with/without approval workflow)
+
+
 
 Separate classes for:
 1. Team : having field for name and description 
